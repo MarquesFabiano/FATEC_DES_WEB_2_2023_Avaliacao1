@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(231, 231, 241);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input[type="text"], input[type="password"], input[type="number"], input[type="submit"] {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgb(221, 221, 221);
+}
+
+input[type="submit"] {
+    background-color: rgb(86, 76, 175);
+    color: white;
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+th {
+    background-color: rgb(51, 39, 207);
+    color: white;
+}
